@@ -1,11 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-</head>
-<body>
-    <h1>This website is coming Soon!!!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Joy Mondal's Work</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#20a6df;">
+  <!-- Container wrapper -->
+  <div class="container">
+    <a class="navbar-brand" href="./index.html">
+      <img
+        src="./img/logo-2.png"
+        height="30"
+        alt=""
+        loading="lazy"
+      />
+    </a>
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarRightAlignExample"
+      aria-controls="navbarRightAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+      <!-- Left links -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Work
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="./PersonalFinance.html">Personal Finance</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./YourSelf.html">YourSelf</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./CareerLauncher.html">CareerLauncher</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+<!-- Background image -->
+  <div
+    class="p-5 text-center bg-image shadow-2-strong"
+    style="
+      background-image: url('./img/c1.jpg');
+      height: 400px;
+    "
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.13);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Joy Mondal</h1>
+          <h4 class="mb-3">Product Designer</h4>
+          <a class="btn btn-outline-light btn-lg m-1" href="#projects" role="button">My Portfolio</a>
+          <a class="btn btn-outline-light btn-lg m-1" href="./about.html" role="button">About Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Of Background image -->
+    </header>
+
+
+    <main class="my-5">
+      <div class="container">
+        <!-- Setion Featues -->
+        <section class="text-center" id="features">
+          <h3 class="mb-5"><strong>Work KPIs</strong></h3>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-tachometer-alt fa-3x text-primary"></i>
+              <h5 class="my-4">Fast</h5>
+              <p class="mb-md-0">Blazing fast load times is my highest priority</p>
+            </div>
+             <div class="col-lg-3 col-md-6">
+              <i class="fas fa-mobile-alt fa-3x text-primary"></i>
+              <h5 class="my-4">Responsive</h5>
+              <p class="mb-md-3">
+                My layouts will look perfect on any device, regardless of screen
+                size.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="far fa-lightbulb fa-3x text-primary"></i>
+              <h5 class="my-4">Intuitive</h5>
+              <p class="mb-md-3">
+                Easy to use, intuitive UX/UI out of the box.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-rocket fa-3x text-primary"></i>
+              <h5 class="my-4">Dynamic</h5>
+              <p class="mb-md-3">
+                Website don't have to be boring. I love to give them a life.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- End of Setion Featues -->
+         <hr class="my-5" />
+
+
+        <!-- Section: My projects -->
+         <section id="projects" class="text-center">
+          <h3 class="my-5"><strong>My projects</strong></h3>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-ripple-color="light"
+                >
+                  <img src="img/PersonalFinance.png" height="280" width="280"/>
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15);"
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Personal Finance</h5>
+                  <p class="card-text">
+                    Personal Finance Management for Indian consumers
+                  </p>
+                  <a href="./PersonalFinance.html" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-ripple-color="light"
+                >
+                  <img src="img/Yourself.png" height="280" width="280" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15);"
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">YourSelf</h5>
+                  <p class="card-text">
+                    Help college student better prepare for the interviews
+                  </p>
+                  <a href="./YourSelf.html" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-ripple-color="light"
+                >
+                  <img src="img/CareerLauncher.png" height="280" width="280" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15);"
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">CareerLauncher</h5>
+                  <p class="card-text">
+                    Self-education accreditation platform that helps people advance their career
+                  </p>
+                  <a href="./CareerLauncher.html" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: My projects -->
+      </div>
+      
+    </main>
+
+
+
+    <footer></footer>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
 </html>
